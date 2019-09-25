@@ -40,7 +40,7 @@ if [ ! -f "/opt/django-DefectDojo/static/docker_complete" ]; then
   python3 manage.py loaddata regulation
   python3 manage.py installwatson
   python3 manage.py buildwatson
-  python3 manage.py collectstatic --noinput
+  #python3 manage.py collectstatic --noinput
   touch /opt/django-DefectDojo/static/docker_complete
 fi
 
