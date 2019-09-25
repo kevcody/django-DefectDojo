@@ -278,7 +278,7 @@ function ubuntu_dojo_install() {
     # Install yarn packages
     cd components && yarn && cd ..
 
-    python manage.py collectstatic --noinput
+    #python manage.py collectstatic --noinput
 }
 
 function install_linux() {
